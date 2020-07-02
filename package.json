@@ -1,0 +1,23 @@
+{
+  "name": "jest-bower-resolver",
+  "version": "1.0.0-dev",
+  "description": "Resolver for jest to resolve bower components correctly by reading the bower.json file",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jake Champion <me@jakechampion.name>",
+  "license": "MIT",
+  "dependencies": {
+    "execa": "^4.0.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Financial-Times/jest-bower-resolver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Financial-Times/jest-bower-resolver/issues"
+  },
+  "homepage": "https://github.com/Financial-Times/jest-bower-resolver#readme"
+}
