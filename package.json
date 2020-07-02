@@ -1,6 +1,6 @@
 {
   "name": "jest-bower-resolver",
-  "version": "1.0.0-dev",
+  "version": "1.0.0",
   "description": "Resolver for jest to resolve bower components correctly by reading the bower.json file",
   "main": "src/index.js",
   "scripts": {
