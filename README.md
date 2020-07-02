@@ -1,4 +1,4 @@
-# jest-bower-resolver
+# @financial-times/jest-bower-resolver
 
 This package is for jest to resolve bower components correctly by reading the bower.json file.
 
@@ -7,12 +7,10 @@ This package is for jest to resolve bower components correctly by reading the bo
 1. install the package
 
    ```
-   $ npm i -D jest-bower-resolver
+   $ npm i -D @financial-times/jest-bower-resolver
    ```
 
-2. add `jest-bower-resolver` as the resolver of jest, and
-   `transformIgnorePattern` so that the package missing `main` field can be
-    transpiled correctly when running jest.
+2. add `jest-bower-resolver` as the resolver of jest.
 
    In your package.json, please add them as follows:
 
@@ -21,7 +19,16 @@ This package is for jest to resolve bower components correctly by reading the bo
      ...
      "jest": {
        ...
-       "resolver": "jest-bower-resolver"
+       "resolver": "@financial-times/jest-bower-resolver"
      }
+   }
+   ```
+   
+   In a jest.config.js file:
+   
+   ```json
+   {
+     ...
+     "resolver": "@financial-times/jest-bower-resolver",
    }
    ```
