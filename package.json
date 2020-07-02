@@ -1,6 +1,6 @@
 {
   "name": "@financial-times/jest-bower-resolver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Resolver for jest to resolve bower components correctly by reading the bower.json file",
   "main": "src/index.js",
   "scripts": {
