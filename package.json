@@ -1,5 +1,5 @@
 {
-  "name": "jest-bower-resolver",
+  "name": "@financial-times/jest-bower-resolver",
   "version": "1.0.0",
   "description": "Resolver for jest to resolve bower components correctly by reading the bower.json file",
   "main": "src/index.js",
@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/Financial-Times/jest-bower-resolver/issues"
   },
-  "homepage": "https://github.com/Financial-Times/jest-bower-resolver#readme"
+  "homepage": "https://github.com/Financial-Times/jest-bower-resolver#readme",
+  "keywords": []
 }
