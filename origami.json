@@ -1,0 +1,14 @@
+{
+	"description": "Resolver for jest to resolve bower components correctly by reading the bower.json file",
+	"origamiType": "library",
+	"origamiVersion": 1,
+	"keywords": [
+		"jest"
+	],
+	"support": "https://github.com/Financial-Times/jest-bower-resolver/issues",
+	"supportStatus": "active",
+	"supportContact": {
+		"email": "origami.support@ft.com",
+		"slack": "financialtimes/origami-support"
+	}
+}
